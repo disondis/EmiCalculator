@@ -1,0 +1,90 @@
+.emi-calculator-container {
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 1200px;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 80vh; /* Ensures enough space to push footer to bottom */
+  }
+  
+  .card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin-right: 20px;
+    min-width: 300px;
+  }
+  
+  .card:last-child {
+    margin-right: 0;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #4e54c8;
+    text-align: center;
+    border-bottom: 2px solid #4e54c8;
+    padding-bottom: 10px;
+  }
+  
+  .card-form, .card-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  .card-content h4 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .doughnutchart canvas {
+    max-height: 250px;
+  }
+  
+  p {
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #4e54c8;
+    margin: 0;
+  }
+  
+  p a {
+    text-decoration: none;
+    color: #4e54c8;
+    font-weight: bold;
+  }
+  h1{
+    position:fixed;
+    top: 10px;
+    text-align: center;
+    margin: 0;
+    left: 0;
+    width: 100%;
+    font-weight: bold;
+    color: #4e54c8;
+  }
